@@ -1,0 +1,7 @@
+1. Remoed the accent on the "e" from films "Cleo from 5 to 7" and "Cache"
+2. Renamed "Ballad of Narayama" to "The Ballad of Narayama"
+3. Changed "Mulholland Dr." to "Mulholland Drive"
+
+Came across another funny little case.
+Ebert lists Departures as being released in 2009, but Wikipedia states 2008.
+That's a hard thing to look out for.
