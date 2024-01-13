@@ -353,17 +353,30 @@ def wiki_url_desparation(film, year):
         return 'https://en.wikipedia.org/wiki/Sunrise:_A_Song_of_Two_Humans'
     elif film == "M":
         return 'https://en.wikipedia.org/wiki/M_(1931_film)'
-    elif film == "After Hours":
-        return "https://en.wikipedia.org/wiki/After_Hours_(film)"
-        #this one was neat.
-        #it originally returned this link:
-        #https://en.wikipedia.org/wiki/The_After_Hours_(The_Twilight_Zone,_1985)
-        #which, yup, was the same year. ya got me good. 
+
     elif film == "Red Beard":
         return "https://en.wikipedia.org/wiki/Red_Beard"
         #it returned a 2002 film called "red bear"
         #there has to be a better way.
 
+    elif film == "The Decalouge":
+        return "https://en.wikipedia.org/wiki/The_Decalogue_(film_series)"
+ 
+    elif film == "The Hustler":
+        return "https://en.wikipedia.org/wiki/The_Hustler"
+    elif film == "Rififi":
+        return "https://en.wikipedia.org/wiki/Rififi"
+
+    # elif film == "Star Wars":
+    #     return "https://en.wikipedia.org/wiki/Star_Wars_(film)"    
+    # elif film == "Jaws":
+    #     return "https://en.wikipedia.org/wiki/Jaws_(film)"
+    # elif film == "After Hours":
+    #     return "https://en.wikipedia.org/wiki/After_Hours_(film)"
+    #     #this one was neat.
+    #     #it originally returned this link:
+    #     #https://en.wikipedia.org/wiki/The_After_Hours_(The_Twilight_Zone,_1985)
+    #     #which, yup, was the same year. ya got me good. 
 
 
 
@@ -408,7 +421,7 @@ def wiki_url_desparation(film, year):
         for result in data[3]:
             #go through each result and see,
 
-            if f"{year}" in result:
+            if f"{year}_film" in result:
                 #1. If the link has the film year specified by Ebert in it,
                 #E.G. https://en.wikipedia.org/wiki/Harakiri_(1962_film)
                 #then that's our film
